@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "inner_images",
+  "info": {
+    "singularName": "inner-image",
+    "pluralName": "inner-images",
+    "displayName": "Inner_Image",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

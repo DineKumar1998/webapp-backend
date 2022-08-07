@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "others_sections",
+  "info": {
+    "singularName": "others-section",
+    "pluralName": "others-sections",
+    "displayName": "Others-image",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imageName": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

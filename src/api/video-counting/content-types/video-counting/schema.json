@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "video_countings",
+  "info": {
+    "singularName": "video-counting",
+    "pluralName": "video-countings",
+    "displayName": "video-counting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "totalVideos": {
+      "type": "integer"
+    },
+    "slug": {
+      "type": "json"
+    }
+  }
+}

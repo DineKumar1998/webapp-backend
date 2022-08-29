@@ -1,5 +1,5 @@
 const { parse } = require("pg-connection-string");
-const config = parse(process.env.DATABASE_URL);
+const config = parse(process.env.HEROKU_POSTGRESQL_AMBER_URL);
 
 module.exports = ({ env }) => ({
   connection: {

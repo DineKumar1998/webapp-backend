@@ -1,3 +1,5 @@
 module.exports = ({ env }) => ({
-    jwtSecret:'u6trRqqcyajAfHBQjxZYGQ=='
+    config: {
+        jwtSecret: env('JWT_SECRET'),
+    }
 })
